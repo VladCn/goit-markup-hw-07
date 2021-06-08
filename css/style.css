@@ -314,8 +314,8 @@ h2 {
 .workflow{
     position: relative;
 }
-
-.workflow > .rab-stol {
+/*.workflow > .workflow__text*/
+.workflow__text {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -340,13 +340,18 @@ h2 {
     letter-spacing: 0.03em;
 }
 
-.nasha-komanda {
+.background-team {
     background: #F5F4FA;
-    padding-bottom: 94px;
-    padding-top: 94px;
+
+}
+.section {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 94px 15px;
 }
 
-.nasha-komanda-ul {
+.grid-team {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
