@@ -282,7 +282,9 @@ h3 {
 .grid__item:not(:last-child) {
     margin-right: 30px;
 }
+.grid__item{
 
+}
 .grid__pic {
     width: 270px;
     height: 120px;
@@ -309,11 +311,11 @@ h2 {
     margin-right: 30px;
 }
 
-.o-rabote-li-div {
+.workflow{
     position: relative;
 }
 
-.o-rabote-li-div > .rab-stol {
+.workflow > .rab-stol {
     position: absolute;
     bottom: 0;
     right: 0;
