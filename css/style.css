@@ -35,13 +35,18 @@ img {
     display: block;
 }
 
-.container {
+.section {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 94px 15px;
+}
+.container{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
 }
-
 .link {
     text-decoration: none;
 }
@@ -66,6 +71,9 @@ header {
     border-bottom: 1px solid #ECECEC;
     padding: 24px 0;
     position: relative;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header {
@@ -419,9 +427,9 @@ h2 {
 }
 
 /*=================================Klienti==============================================*/
-.klienti {
-    padding: 94px 0;
-}
+/*.klienti {*/
+/*    padding: 94px 0;*/
+/*}*/
 
 .ul-klienti {
     display: flex;
@@ -478,7 +486,6 @@ h2 {
     color: var(--hov-blue-color);
 }
 
-/*section -work*/
 
 .work-select {
     background: #F5F4FA;
