@@ -275,15 +275,15 @@ h3 {
     padding-top: 94px;
 }
 
-.grid-chips {
+.grid {
     display: flex;
 }
 
-.grid-chips__item:not(:last-child) {
+.grid__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.grid-chips__pic {
+.grid__pic {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -294,7 +294,7 @@ h3 {
     align-items: center;
 }
 
-.grid-chips__name {
+.grid__name {
     text-transform: var(--upper-text-transform);
     margin-bottom: 10px;
 }
@@ -305,13 +305,8 @@ h2 {
     margin-bottom: 50px;
 }
 
-.o-rabote-ul {
-    display: flex;
-}
-
 .o-rabote-li:not(:last-child) {
     margin-right: 30px;
-
 }
 
 .o-rabote-li-div {
@@ -337,7 +332,7 @@ h2 {
 
 }
 
-.grid-chips__text{
+.grid__text{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
