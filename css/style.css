@@ -351,14 +351,14 @@ h2 {
     padding: 94px 15px;
 }
 
-.grid-team {
-    display: flex;
+.grid--team {
+    /*display: flex;*/
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
 }
 
-.nasha-komanda-li {
+.grid--team__item {
     background: var(--ther-white-color);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0 0 4px 4px;
@@ -366,16 +366,16 @@ h2 {
     margin-left: 30px;
 }
 
-.nasha-komanda-li-div {
+.meta {
     text-align: center;
     padding: 30px 32px;
 }
 
-.nasha-komanda-h3 {
+.meta__name {
     margin-bottom: 10px;
 }
 
-.div-logo-link {
+.meta-link {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -417,7 +417,7 @@ h2 {
     fill: #ffffff;
 }
 
-.proffesia {
+.meta__about {
     font-size: 16px;
     line-height: 1.18;
     /*text-align: center;*/
