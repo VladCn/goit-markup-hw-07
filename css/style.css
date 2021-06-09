@@ -609,7 +609,9 @@ footer {
     background-color: #2F303A;
 }
 
-.foot {
+.section-foot {
+    display: flex;
+    align-items: baseline;
     padding: 60px 15px;
     display: flex;
     width: 1200px;
@@ -617,11 +619,11 @@ footer {
     margin-right: auto;
 }
 
-.div-footer {
+.foot-nav {
     margin-right: 70px;
 }
 
-.footer {
+.foot-nav__link {
     display: inline-block;
     margin-bottom: 20px;
 }
@@ -642,7 +644,7 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.foot-a {
+.grid__item--mb {
     margin-bottom: 9px;
 }
 
@@ -669,10 +671,10 @@ address {
     margin-right: 93px;
 }
 
-.foot-all-div {
-    display: flex;
-    align-items: baseline;
-}
+/*.foot-nav {*/
+/*    display: flex;*/
+/*    align-items: baseline;*/
+/*}*/
 
 .a-logo-foot {
     display: flex;
