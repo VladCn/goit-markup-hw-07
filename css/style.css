@@ -431,12 +431,11 @@ h2 {
 /*    padding: 94px 0;*/
 /*}*/
 
-.ul-klienti {
-    display: flex;
+.grid__space-between {
     justify-content: space-between;
 }
 
-.a-klienti {
+.grid__link {
     fill: #AFB1B8;
     width: 170px;
     height: 92px;
@@ -451,20 +450,20 @@ h2 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-klienti svg,
-.a-klienti svg {
+.grid__link svg,
+.grid__linksvg {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-klienti:hover svg,
-.a-klienti:focus svg {
+.grid__link:hover svg,
+.grid__link:focus svg {
     fill: var(--hov-blue-color);
 }
 
-.a-klienti:hover,
-.a-klienti:focus {
+.grid__link:hover,
+.grid__link:focus {
     border-color: var(--hov-blue-color);
 }
 
