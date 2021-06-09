@@ -381,25 +381,25 @@ h2 {
     align-items: center;
 }
 
-.logo-link {
+.meta-link__pic {
     display: flex;
     fill: #AFB1B8;
 }
 
-.a-logo-link svg,
-.a-logo-link svg {
+.meta-link__logo svg,
+.meta-link__logo svg {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-logo-link:hover svg,
-.a-logo-link:focus svg {
+.meta-link__logo:hover svg,
+.meta-link__logo:focus svg {
     fill: #ffffff;
 }
 
 
-.a-logo-link {
+.meta-link__logo {
     display: flex;
     border-radius: 50%;
     width: 40px;
@@ -411,8 +411,8 @@ h2 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-logo-link:hover,
-.a-logo-link:focus {
+.meta-link__logo:hover,
+.meta-link__logo:focus {
     background-color: #2196F3;
     fill: #ffffff;
 }
