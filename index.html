@@ -323,13 +323,10 @@
 <!--===================================FOOTER===============================================-->
 <footer>
     <section class="section-foot">
-<!--        <div class="foot-all-div">        -->
-<!--        <div class="foot-nav">-->
             <div class="foot-nav">
                 <a class="foot-nav__link logo-foot link" href="index.html">Web<span class="studio-white">Studio</span></a>
                 <address>г. Киев, пр-т Леси Украинки, 26</address>
                 <ul>
-<!--                    <li class="foot-a">-->
                     <li class="grid__item grid__item--mb">
                         <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -344,9 +341,7 @@
                 </p>
                 <ul class="meta-link">
                     <li class="meta-link__item">
-<!--                        <a class="a-logo-foot" href="">-->
                         <a class="meta-link__logo logo-background--black" href="">
-<!--                            <svg class="a-logo-foot-svg" width="20" height="20">                          -->
                             <svg class="meta-link__pic logo-fill__white" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
@@ -367,7 +362,7 @@
                         </a>
                     </li>
                     <li class="meta-link__item">
-                        <a class="meta-link__logo logo-background--black href="">
+                        <a class="meta-link__logo logo-background--black href=">
                             <svg class="meta-link__pic logo-fill__white" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
@@ -375,13 +370,13 @@
                     </li>
                 </ul>
             </div>
-            <form class="form-foot" name="Podpiska-na-ras" autocomplete="on" novalidate>
-                <label class="foot-label">
+            <form class="form" name="Podpiska-na-ras" autocomplete="on" novalidate>
+                <label class="form__label">
                     Подпишитесь на рассылку
                 </label>
-                <div class="foot-flex">
-                    <input class="foot-inp" type="email" name="email" placeholder="E-mail">
-                    <button class="foot-butt" type="submit">Подписаться
+                <div class="grid">
+                    <input class="inp" type="email" name="email" placeholder="E-mail">
+                    <button class="button button--flex" type="submit">Подписаться
                         <svg class="foot-podp-svg" width="24" height="24">
                             <use href="./images/sprite.svg#icon-icon-send"></use>
                         </svg>
@@ -390,23 +385,26 @@
             </form>
         </div>
     </section>
-
 </footer>
 <!--===================================FOOTER=END==========================================-->
 <!--===================================MODAL==========================================-->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal form-modal">
         <button type="button" class="btn-close" data-modal-close>
-            <svg class="bott-close" width="18" height="18">
+            <svg class="button__close" width="18" height="18">
                 <use href="./images/sprite.svg#icon-close-black"></use>
             </svg>
         </button>
         <form class="form-modal" name="form-modal" autocomplete="on" novalidate>
-            <h3 class="modal-h1">Оставьте свои данные, мы вам перезвоним</h3>
-            <ul class="modal-ul">
-                <li class="modal-li">
-                    <label class="modla-label">
-                        <span class="modal-span">Имя</span>
+            <h3 class="form-modal__text">Оставьте свои данные, мы вам перезвоним</h3>
+<!--            <ul class="modal-ul">-->
+            <ul class="grid grid--modal">
+<!--                <li class="modal-li">-->
+                <li class="grid__item grid__item--mb">
+<!--                    <label class="modla-label">-->
+                    <label class="label">
+<!--                        <span class="modal-span">Имя</span>-->
+                        <span class="label__text">Имя</span>
                         <div class="div-inp">
                             <input class="modal-input" type="name" name="name">
                             <svg class="modal-svg" width="18" height="18">
@@ -415,9 +413,9 @@
                         </div>
                     </label>
                 </li>
-                <li class="modal-li">
-                    <label class="modla-label">
-                        <span class="modal-span">Телефон</span>
+                <li class="grid__item grid__item--mb">
+                    <label class="label">
+                        <span class="label__text">Телефон</span>
                         <div class="div-inp">
                             <input class="modal-input" type="name" name="name">
                             <svg class="modal-svg" width="18" height="18">
@@ -426,9 +424,9 @@
                         </div>
                     </label>
                 </li>
-                <li class="modal-li">
-                    <label class="modla-label">
-                        <span class="modal-span">Почта</span>
+                <li class="grid__item grid__item--mb">
+                    <label class="label">
+                        <span class="label__text">Почта</span>
                         <div class="div-inp">
                             <input class="modal-input" type="name" name="name">
                             <svg class="modal-svg" width="18" height="18">
@@ -437,9 +435,9 @@
                         </div>
                     </label>
                 </li>
-                <li class="modal-li">
-                    <label>
-                        <span class="modal-span">Комментарий</span>
+                <li class="grid__item grid__item--mb">
+                    <label class="label">
+                        <span class="label__text">Комментарий</span>
                         <textarea class="modal-texta" placeholder="Введите текст"></textarea>
                     </label>
                 </li>

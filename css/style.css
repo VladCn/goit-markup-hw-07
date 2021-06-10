@@ -728,7 +728,7 @@ address {
     margin-right: 10px;
 }
 
-.foot-label {
+.form__label {
     display: block;
     color: var(--ther-white-color);
     font-size: 14px;
@@ -739,10 +739,10 @@ address {
     margin-bottom: 20px;
 }
 
-.form-foot {
+.form{
 }
 
-.foot-inp {
+.inp {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -755,25 +755,30 @@ address {
     margin-right: 12px;
 }
 
-.foot-inp::placeholder {
+.inp::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.foot-butt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.button {
+    cursor: pointer;
     width: 200px;
     height: 50px;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: 0;
     border-radius: 4px;
     font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 0.06em;
     color: var(--ther-white-color);
-    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    border: 0;
+    padding: 6px 22px;
+}
+.button--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foot-flex {
@@ -812,7 +817,12 @@ address {
     padding: 43px 36px 37px 44px;
 }
 
-.bott-close {
+.form-modal {
+    margin-bottom: 30px;
+}
+
+
+.button__close {
     position: absolute;
     fill: #000000;
     top: 50%;
@@ -852,21 +862,16 @@ address {
     }
 }
 
-.form-modal {
-    margin-bottom: 30px;
-}
-
-.modal-ul {
-    display: flex;
+.grid--modal {
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.modal-li:not(:last-of-type) {
+.grid__item--mb:not(:last-of-type) {
     margin-bottom: 10px;
 }
 
-.modal-span {
+.label__text {
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -895,7 +900,7 @@ address {
     border-color: #2196F3;
 }
 
-.modal-h1 {
+.form-modal__text {
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
