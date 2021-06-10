@@ -248,19 +248,6 @@ h3 {
     color: var(--sec-color);
 }
 
-.button {
-    cursor: pointer;
-    background: #2196F3;
-    border-radius: 4px;
-    font-weight: bold;
-    color: var(--ther-white-color);
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    border: 0;
-    padding: 6px 22px;
-}
 
 .butt-zak {
     font-size: 16px;
@@ -879,7 +866,7 @@ address {
     margin-bottom: 4px;
 }
 
-.modal-texta {
+.label-textarea {
     resize: none;
     width: 448px;
     height: 120px;
@@ -895,8 +882,8 @@ address {
     outline: none;
 }
 
-.modal-texta:focus,
-.modal-texta:hover {
+.label-textarea:focus,
+.label-textarea:hover {
     border-color: #2196F3;
 }
 
@@ -910,7 +897,7 @@ address {
     margin-bottom: 12px;
 }
 
-.modal-input {
+.input-modal {
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -924,21 +911,18 @@ address {
     outline: none;
 }
 
-.modal-input:hover,
-.modal-input:focus {
+
+.input-modal:hover,
+.input-modal:focus {
     border-color: #2196F3;
 }
 
-.modal-input:hover + .modal-svg,
-.modal-input:focus + .modal-svg {
-    fill: #2196F3;
-}
 
-.div-inp {
+.share--rel{
     position: relative;
 }
 
-.modal-svg {
+.input-modal__pic {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -949,34 +933,39 @@ address {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-modal:hover + .input-modal__pic,
+.input-modal:focus + .input-modal__pic {
+    fill: #2196F3;
+}
+
 .svg-dogov {
     fill: white;
     border: 3px solid #212121;
     border-radius: 3px;
 }
 
-.checkbox {
+.label-contract__checkbox {
     position: absolute;
     appearance: none;
 }
 
-.sp-icon {
+.label-contract__text {
     background-image: url("../images/checkbox.svg");
     display: inline-block;
     width: 16px;
     height: 15px;
 }
 
-.checkbox:focus + .sp-icon,
-.checkbox:hover + .sp-icon {
+.label-contract__checkbox:focus + .label-contract__text,
+.label-contract__checkbox:hover + .label-contract__text {
     background-image: url("../images/checkbox-focus.svg");
 }
 
-.checkbox:checked + .sp-icon {
+.label-contract__checkbox:checked + .label-contract__text {
     background-image: url("../images/check-cheked.svg");
 }
 
-.lab-dog {
+.label-contract {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -985,33 +974,32 @@ address {
 .a-dogov {
     color: #2196F3;
 }
-
-.but-otpr {
+.button {
+    cursor: pointer;
     width: 200px;
     height: 50px;
-    margin: 0 auto;
     background: #2196F3;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    border: 0;
     border-radius: 4px;
     font-weight: bold;
+    color: var(--ther-white-color);
+    font-family: inherit;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.875;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    cursor: pointer;
+    border: 0;
+    padding: 6px 22px;
+}
+.button-modal {
+    margin: 0 auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.but-otpr:hover,
-.but-otpr:focus {
+.button-modal:hover,
+.button-modal:focus {
     background: #188CE8;
-}
-
-.div-but-otpr {
-    display: flex;
 }
 
 .btn-close:hover svg,
