@@ -386,6 +386,10 @@ h2 {
     fill: #AFB1B8;
 }
 
+.logo-fill__white{
+fill: var(--ther-white-color);
+}
+
 .meta-link__logo svg,
 .meta-link__logo svg {
     transition-property: fill;
@@ -619,6 +623,7 @@ footer {
     margin-right: auto;
 }
 
+
 .foot-nav {
     margin-right: 70px;
 }
@@ -657,7 +662,7 @@ address {
     color: #2196F3;
 }
 
-.text-pris {
+.foot-connect__text {
     color: var(--ther-white-color);
     font-size: 14px;
     font-weight: bold;
@@ -688,6 +693,13 @@ address {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.logo-background--black{
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .a-logo-foot:hover,
 .a-logo-foot:focus {
@@ -712,7 +724,7 @@ address {
     fill: var(--ther-white-color);
 }
 
-.foot-li:not(:last-child) {
+.meta-link__item:not(:last-child) {
     margin-right: 10px;
 }
 
