@@ -520,29 +520,35 @@ fill: var(--ther-white-color);
 
 
 
-.ul-primeri-rabot {
+.grid-example {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
 
-.li-primeri-rabot {
+.grid-example__item {
     margin-left: 30px;
     margin-top: 30px;
     cursor: pointer;
 
 }
 
-.a-primeri-rabot {
+.grid-example__link{
     cursor: pointer;
     text-decoration: none;
 }
 
-.a-primeri-rabot:hover,
-.a-primeri-rabot:focus {
+.grid-example__link:hover,
+.grid-example__link:focus {
     display: inline-block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.grid-example__link:hover > .li-primeri-rabot-div p,
+.grid-example__link:focus > .li-primeri-rabot-div p {
+    pointer-events: all;
+    transform: translate(-50%, -50%);
 }
 
 .li-primeri-rabot-div {
@@ -568,11 +574,7 @@ fill: var(--ther-white-color);
 
 }
 
-.a-primeri-rabot:hover > .li-primeri-rabot-div p,
-.a-primeri-rabot:focus > .li-primeri-rabot-div p {
-    pointer-events: all;
-    transform: translate(-50%, -50%);
-}
+
 
 
 .li-primeri-rabot-text {
