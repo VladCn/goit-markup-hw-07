@@ -233,7 +233,7 @@ header {
     color: var(--ther-white-color);
 }
 
-.text-h2 {
+.section__text {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.66;
