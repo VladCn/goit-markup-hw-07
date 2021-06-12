@@ -1,0 +1,36 @@
+header {
+  background-color: var(--ther-white-color);
+  border-bottom: 1px solid #ECECEC;
+  padding: 24px 0;
+  position: relative;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+  bottom: 0;
+}
+
+.active-port::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 78px;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+  bottom: 0;
+}

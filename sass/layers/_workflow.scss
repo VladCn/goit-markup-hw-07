@@ -1,0 +1,22 @@
+.workflow{
+  position: relative;
+
+  &__text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 370px;
+    height: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding: 27px 0;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ther-white-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
+
+  }
+}

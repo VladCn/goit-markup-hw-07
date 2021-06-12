@@ -1,6 +1,14 @@
-//.active{
-//  color: #188CE8;
-//}
-//.a-dogov{
-//  background-color: #2F303A;
-//}
+@import 'utils/variables';
+
+@import 'layers/body';
+@import 'layers/header';
+@import 'layers/hero';
+@import 'layers/workflow';
+
+@import 'components/components';
+@import 'components/navigation';
+@import 'components/list';
+@import 'components/contact';
+@import 'components/section';
+@import 'components/grid';
+@import 'components/meta';
