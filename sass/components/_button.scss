@@ -1,0 +1,62 @@
+.button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  border-radius: 4px;
+  font-weight: bold;
+  color: var(--ther-white-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: 0;
+  padding: 6px 22px;
+
+  &--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+
+  &__pic {
+    position: absolute;
+    fill: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &:hover svg,
+  &:focus svg {
+    fill: #2196F3;
+  }
+}
+
+
+
+.button-modal {
+  margin: 0 auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: background;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+  background: #188CE8;
+}
+}

@@ -1,0 +1,22 @@
+.outgoing-list {
+  position: relative;
+  overflow: hidden;
+
+
+&__text {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--ther-white-color);
+  background-image: linear-gradient(rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
+  padding: 63px 24px;
+  pointer-events: all;
+  transition: transform 250ms;
+}
+}

@@ -66,3 +66,25 @@ h3 {
 .logo-fill__white{
   fill: var(--ther-white-color);
 }
+
+.active {
+  color: var(--hov-blue-color);
+}
+
+.active-port {
+  color: var(--hov-blue-color);
+}
+
+@keyframes animate125 {
+  0% {
+    transform: scale(0.25);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

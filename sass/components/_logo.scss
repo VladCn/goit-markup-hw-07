@@ -1,0 +1,38 @@
+.logo-background--black{
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+//.a-logo-foot:hover,
+//.a-logo-foot:focus {
+//  background-color: var(--hov-blue-color);
+//}
+//
+//.a-logo-foot svg {
+//  transition-property: fill;
+//  transition-duration: 250ms;
+//  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//}
+//
+//.a-logo-foot:hover svg {
+//  fill: var(--ther-white-color);
+//  transition-property: fill;
+//  transition-duration: 250ms;
+//  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//}
+//
+//.a-logo-foot-svg {
+//  display: flex;
+//  fill: var(--ther-white-color);
+//}
+.logo-foot {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}

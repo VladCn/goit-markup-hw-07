@@ -1,0 +1,23 @@
+.form{
+
+  &__label {
+    display: block;
+    color: var(--ther-white-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+
+.form-modal__text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
