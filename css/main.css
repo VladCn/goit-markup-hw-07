@@ -396,7 +396,7 @@ address {
 .section-chips {
   padding-top: 94px;
 }
-.section__text {
+.section__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.66;
@@ -446,31 +446,6 @@ address {
 }
 .grid__space-between {
   justify-content: space-between;
-}
-
-.grid__link {
-  fill: #AFB1B8;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.grid__link svg, .grid__link svg {
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.grid__link:hover svg, .grid__link:focus svg {
-  fill: var(--hov-blue-color);
-}
-.grid__link:hover, .grid__link:focus {
-  border-color: var(--hov-blue-color);
 }
 
 .grid-work {
@@ -827,6 +802,39 @@ address {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 100;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client {
+  display: flex;
+  justify-content: space-between;
+}
+.client__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client__link {
+  fill: #AFB1B8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__link svg, .client__link svg {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__link:hover svg, .client__link:focus svg {
+  fill: var(--hov-blue-color);
+}
+.client__link:hover, .client__link:focus {
+  border-color: var(--hov-blue-color);
 }
 
 /*# sourceMappingURL=main.css.map */
