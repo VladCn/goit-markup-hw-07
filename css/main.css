@@ -712,7 +712,7 @@ address {
   fill: #2196F3;
 }
 
-.label-textarea {
+.label__textarea {
   resize: none;
   width: 448px;
   height: 120px;
@@ -727,29 +727,29 @@ address {
   cursor: pointer;
   outline: none;
 }
-.label-textarea:focus, .label-textarea:hover {
+.label__textarea:focus, .label__textarea:hover {
   border-color: #2196F3;
 }
 
-.label-contract {
+.contract {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.label-contract__checkbox {
+.contract__checkbox {
   position: absolute;
   appearance: none;
 }
-.label-contract__text {
+.contract__text {
   background-image: url("../images/checkbox.svg");
   display: inline-block;
   width: 16px;
   height: 15px;
 }
-.label-contract__checkbox:focus + .label-contract__text, .label-contract__checkbox:hover + .label-contract__text {
+.contract__checkbox:focus + .contract__text, .contract__checkbox:hover + .contract__text {
   background-image: url("../images/checkbox-focus.svg");
 }
-.label-contract__checkbox:checked + .label-contract__text {
+.contract__checkbox:checked + .contract__text {
   background-image: url("../images/check-cheked.svg");
 }
 

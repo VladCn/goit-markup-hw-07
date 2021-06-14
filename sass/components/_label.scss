@@ -47,7 +47,7 @@
 
 }
 
-.label-textarea {
+.label__textarea {
   resize: none;
   width: 448px;
   height: 120px;
@@ -70,7 +70,7 @@
 }
 
 
-.label-contract {
+.contract {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -88,12 +88,12 @@
   height: 15px;
 }
 
-&__checkbox:focus + .label-contract__text,
-&__checkbox:hover + .label-contract__text {
+&__checkbox:focus + &__text,
+&__checkbox:hover + &__text {
   background-image: url("../images/checkbox-focus.svg");
 }
 
-&__checkbox:checked + .label-contract__text {
+&__checkbox:checked + &__text {
   background-image: url("../images/check-cheked.svg");
 }
 }
