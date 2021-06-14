@@ -11,7 +11,6 @@ footer {
   margin-right: auto;
 }
 
-
 .foot {
   margin-right: 70px;
 
@@ -26,38 +25,23 @@ footer {
     color: #2196F3;
   }
   &__list{
-
   }
 
   &__item{
     cursor: pointer;
     margin-bottom: 9px;
-
   }
-}
 
+  &__connect {
+    margin-right: 93px;}
 
-.foot-connect {
-  margin-right: 93px;
-
-&__text {
-  color: var(--ther-white-color);
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.foot-connect {
-  margin-right: 93px;
-}
-}
-.foot-flex {
-  display: flex;
-}
-
-.foot-podp-svg {
-  margin-left: 10px;
+  &__text {
+      color: var(--ther-white-color);
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
 }

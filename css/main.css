@@ -211,11 +211,10 @@ footer {
   cursor: pointer;
   margin-bottom: 9px;
 }
-
-.foot-connect {
+.foot__connect {
   margin-right: 93px;
 }
-.foot-connect__text {
+.foot__text {
   color: var(--ther-white-color);
   font-size: 14px;
   font-weight: bold;
@@ -223,17 +222,6 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-.foot-connect .foot-connect {
-  margin-right: 93px;
-}
-
-.foot-flex {
-  display: flex;
-}
-
-.foot-podp-svg {
-  margin-left: 10px;
 }
 
 .modal {
@@ -531,7 +519,7 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form__label {
+.subscription__label {
   display: block;
   color: var(--ther-white-color);
   font-size: 14px;
@@ -540,6 +528,30 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+.subscription__list {
+  display: flex;
+}
+.subscription__button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  border-radius: 4px;
+  font-weight: bold;
+  color: var(--ther-white-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: 0;
+  padding: 6px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription__pic {
+  margin-left: 10px;
 }
 
 .inp {
