@@ -12,20 +12,29 @@ footer {
 }
 
 
-.foot-nav {
+.foot {
   margin-right: 70px;
 
   &__link {
     display: inline-block;
     margin-bottom: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+  }
+  &__list{
+
+  }
+
+  &__item{
+    cursor: pointer;
+    margin-bottom: 9px;
+
   }
 }
-
-.foot-nav__link {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
 
 
 .foot-connect {

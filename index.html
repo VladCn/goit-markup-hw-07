@@ -327,14 +327,14 @@
 <!--===================================FOOTER===============================================-->
 <footer>
     <section class="section-foot">
-            <div class="foot-nav">
-                <a class="foot-nav__link logo-foot link" href="index.html">Web<span class="studio-white">Studio</span></a>
+            <div class="foot">
+                <a class="foot__link link" href="index.html">Web<span class="studio-white">Studio</span></a>
                 <address>г. Киев, пр-т Леси Украинки, 26</address>
-                <ul>
-                    <li class="grid__item grid__item--mb">
+                <ul class="foot__list">
+                    <li class="foot__item">
                         <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="grid__item">
+                    <li class="foot__item">
                         <a class="tel link" href="tel:+38961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
@@ -393,24 +393,24 @@
 <!--===================================FOOTER=END==========================================-->
 <!--===================================MODAL==========================================-->
 <div class="backdrop is-hidden" data-modal>
-    <div class="modal form-modal">
-        <button type="button" class="btn-close" data-modal-close>
+    <div class="modal modal-mb">
+        <button class="btn-close" type="button" data-modal-close>
             <svg class="btn-close__pic" width="18" height="18">
                 <use href="./images/sprite.svg#icon-close-black"></use>
             </svg>
         </button>
-        <form class="form-modal" name="form-modal" autocomplete="on" novalidate>
-            <h3 class="form-modal__text">Оставьте свои данные, мы вам перезвоним</h3>
+        <form class="modal__form" name="form-modal" autocomplete="on" novalidate>
+            <h3 class="modal__text">Оставьте свои данные, мы вам перезвоним</h3>
 <!--            <ul class="modal-ul">-->
-            <ul class="grid grid--modal">
+            <ul class="modal__list">
 <!--                <li class="modal-li">-->
-                <li class="grid__item grid__item--mb">
+                <li class="modal__item">
 <!--                    <label class="modla-label">-->
                     <label class="label">
 <!--                        <span class="modal-span">Имя</span>-->
                         <span class="label__text">Имя</span>
 <!--                        <div class="div-inp">-->
-                        <div class="share--rel">
+                        <div class="label__list">
 <!--                            <input class="modal-input" type="name" name="name">-->
                             <input class="input-modal" type="name" name="name">
                             <svg class="input-modal__pic" width="18" height="18">
@@ -419,7 +419,7 @@
                         </div>
                     </label>
                 </li>
-                <li class="grid__item grid__item--mb">
+                <li class="modal__item">
                     <label class="label">
                         <span class="label__text">Телефон</span>
                         <div class="share--rel">
@@ -430,7 +430,7 @@
                         </div>
                     </label>
                 </li>
-                <li class="grid__item grid__item--mb">
+                <li class="modal__item">
                     <label class="label">
                         <span class="label__text">Почта</span>
                         <div class="share--rel">
@@ -441,7 +441,7 @@
                         </div>
                     </label>
                 </li>
-                <li class="grid__item grid__item--mb">
+                <li class="modal__item">
                     <label class="label">
                         <span class="label__text">Комментарий</span>
                         <textarea class="label-textarea" placeholder="Введите текст"></textarea>

@@ -9,16 +9,45 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 43px 36px 37px 44px;
-}
 
-.form-modal {
-  margin-bottom: 30px;
-}
+  &-mb{
+    margin-bottom: 30px;
+  }
+  &__form {
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  &__item {
+      margin-bottom: 9px;}
 
 
-.share--rel{
-  position: relative;
-}
+  &__item:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+
+//.form-modal {
+//  margin-bottom: 30px;
+//}
+
+//.share--rel{
+//  position: relative;
+//}
 
 .a-dogov {
   color: #2196F3;

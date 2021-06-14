@@ -194,17 +194,22 @@ footer {
   margin-right: auto;
 }
 
-.foot-nav {
+.foot {
   margin-right: 70px;
 }
-.foot-nav__link {
+.foot__link {
   display: inline-block;
   margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
 }
-
-.foot-nav__link {
-  display: inline-block;
-  margin-bottom: 20px;
+.foot__item {
+  cursor: pointer;
+  margin-bottom: 9px;
 }
 
 .foot-connect {
@@ -243,13 +248,31 @@ footer {
   border-radius: 4px;
   padding: 43px 36px 37px 44px;
 }
-
-.form-modal {
+.modal-mb {
   margin-bottom: 30px;
 }
-
-.share--rel {
-  position: relative;
+.modal__form {
+  margin-bottom: 30px;
+}
+.modal__text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.modal__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.modal__item {
+  margin-bottom: 9px;
+}
+.modal__item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .a-dogov {
@@ -403,9 +426,6 @@ address {
 .grid__item:not(:last-child) {
   margin-right: 30px;
 }
-.grid__item--mb {
-  margin-bottom: 9px;
-}
 .grid__space-between {
   justify-content: space-between;
 }
@@ -467,11 +487,6 @@ address {
 .grid-example__link:hover > .outgoing-list p, .grid-example__link:focus > .outgoing-list p {
   pointer-events: all;
   transform: translate(-50%, -50%);
-}
-
-.grid--modal {
-  flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .grid__item--mb:not(:last-of-type) {
@@ -576,15 +591,6 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-foot {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196F3;
-}
-
 .form__label {
   display: block;
   color: var(--ther-white-color);
@@ -594,16 +600,6 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.form-modal__text {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 12px;
 }
 
 .inp {
@@ -706,12 +702,15 @@ address {
   background: #188CE8;
 }
 
-.label__text {
+.label .label__text {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
+}
+.label__list {
+  position: relative;
 }
 
 .label-textarea {
