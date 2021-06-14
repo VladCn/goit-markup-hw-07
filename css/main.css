@@ -61,10 +61,6 @@ h3 {
   color: var(--sec-color);
 }
 
-.background-team {
-  background: #F5F4FA;
-}
-
 .logo-fill__white {
   fill: var(--ther-white-color);
 }
@@ -393,9 +389,6 @@ address {
   margin-left: auto;
   padding: 94px 15px;
 }
-.section-chips {
-  padding-top: 94px;
-}
 .section__title {
   font-weight: bold;
   font-size: 36px;
@@ -412,37 +405,6 @@ address {
 }
 .grid__item--mb {
   margin-bottom: 9px;
-}
-.grid__pic {
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.grid__name {
-  text-transform: var(--upper-text-transform);
-  margin-bottom: 10px;
-}
-.grid__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.grid--team {
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-.grid--team__item {
-  background: var(--ther-white-color);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 4px 4px;
-  margin-top: 30px;
-  margin-left: 30px;
 }
 .grid__space-between {
   justify-content: space-between;
@@ -835,6 +797,52 @@ address {
 }
 .client__link:hover, .client__link:focus {
   border-color: var(--hov-blue-color);
+}
+
+.chips {
+  padding-top: 94px;
+}
+.chips__list {
+  display: flex;
+}
+.chips__item:not(:last-child) {
+  margin-right: 30px;
+}
+.chips__pic {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chips__name {
+  text-transform: var(--upper-text-transform);
+  margin-bottom: 10px;
+}
+.chips__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background: #F5F4FA;
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.team__item {
+  background: var(--ther-white-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
