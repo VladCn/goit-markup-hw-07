@@ -661,14 +661,14 @@ address {
   fill: #2196F3;
 }
 
-.button-modal {
+.btn-shadow {
   margin: 0 auto;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   transition-property: background;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-modal:hover, .button-modal:focus {
+.btn-shadow:hover, .btn-shadow:focus {
   background: #188CE8;
 }
 
