@@ -618,36 +618,6 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input-modal {
-  width: 448px;
-  height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding-left: 42px;
-  cursor: pointer;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
-}
-.input-modal:hover, .input-modal:focus {
-  border-color: #2196F3;
-}
-.input-modal__pic {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  fill: black;
-  transform: translateY(-50%);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input-modal:hover + .input-modal__pic, .input-modal:focus + .input-modal__pic {
-  fill: #2196F3;
-}
-
 .button {
   cursor: pointer;
   width: 200px;
@@ -711,6 +681,35 @@ address {
 }
 .label__list {
   position: relative;
+}
+.label__input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 42px;
+  cursor: pointer;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+.label__input:hover, .label__input:focus {
+  border-color: #2196F3;
+}
+.label__pic {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  fill: black;
+  transform: translateY(-50%);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label__input:hover + .label__pic, .label__input:focus + .label__pic {
+  fill: #2196F3;
 }
 
 .label-textarea {
