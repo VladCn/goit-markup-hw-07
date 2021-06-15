@@ -100,9 +100,6 @@ header {
   border-bottom: 1px solid #ECECEC;
   padding: 24px 0;
   position: relative;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .header {
@@ -287,17 +284,20 @@ footer {
 }
 
 .section {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 94px 15px;
+}
+.section__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  color: var(--sec-color);
 }
 
 .container {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 15px;
 }
 
 .studio {
@@ -313,6 +313,10 @@ footer {
   font-weight: bold;
   color: var(--ther-white-color);
   font-family: inherit;
+}
+
+.features {
+  padding-top: 94px;
 }
 
 .nav {
@@ -410,20 +414,6 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.section {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 94px 15px;
-}
-.section__title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.66;
-  letter-spacing: 0.03em;
-  color: var(--sec-color);
 }
 
 .grid {
@@ -768,9 +758,6 @@ address {
   border-color: var(--hov-blue-color);
 }
 
-.chips {
-  padding-top: 94px;
-}
 .chips__list {
   display: flex;
 }
@@ -858,7 +845,6 @@ address {
 .example__item {
   margin-left: 30px;
   margin-top: 30px;
-  cursor: pointer;
 }
 .example__link {
   cursor: pointer;

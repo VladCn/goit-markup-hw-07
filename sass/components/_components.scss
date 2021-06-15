@@ -1,15 +1,23 @@
 .section {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  //width: 1200px;
+  //margin-right: auto;
+  //margin-left: auto;
   padding: 94px 15px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+  }
 }
 
 .container{
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 15px;
+  //padding: 0 15px;
 }
 
 .studio {
@@ -24,6 +32,9 @@
   font-weight: bold;
   color: var(--ther-white-color);
   font-family: inherit;
+}
+.features{
+  padding-top: 94px;
 }
 
 
